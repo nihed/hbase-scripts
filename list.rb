@@ -9,7 +9,7 @@ import org.apache.hadoop.hbase.client.Table
 import org.apache.hadoop.hbase.client.Put
 import org.apache.hadoop.hbase.util.Bytes
 import org.apache.hadoop.hbase.client.HBaseAdmin
-o = [('a'..'z'), ('A'..'Z')].map(&:to_a).flatten
+
 
 config =  HBaseConfiguration.create()
 connection = ConnectionFactory.createConnection(config);
